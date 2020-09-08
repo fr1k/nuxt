@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Main</h1>
-  </div>
+  <h1>About me</h1>
 </template>
 
 <script>
@@ -9,10 +7,11 @@ export default {
   head() {
     return {
       title: 'Uslugi page',
-      meta: [{ hid: 'description', name: 'description', content: 'Main page' }],
+      meta: [
+        { hid: 'description', name: 'description', content: 'Uslugi page' },
+      ],
     }
   },
-  layout: 'main',
 }
 </script>
 
